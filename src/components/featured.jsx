@@ -1,4 +1,5 @@
 export function Featured({ movie }) {
+    
   const durationHours = Math.floor(movie.Duration / 60 / 60);
   const durationMinutes = Math.floor(movie.Duration / 60) % 60;
 

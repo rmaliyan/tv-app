@@ -49,7 +49,7 @@ const menuItemsList = [
 
 export function Menu() {
   return (
-    <div className="transition-all ease-in-out  delay-500 z-50 absolute pl-10 flex items-center w-40 h-screen bg-transparent group hover:w-1/2 hover:bg-gradient-to-r hover:from-black">
+    <div className="transition-all ease-in-out delay-500 z-50 absolute pl-10 flex items-center w-40 h-screen bg-transparent group hover:w-4/5 hover:bg-gradient-to-r hover:from-black">
       <div className="flex items-center justify-center py-5 flex-col">
         {menuItemsList.map((element, index) => {
           return (
